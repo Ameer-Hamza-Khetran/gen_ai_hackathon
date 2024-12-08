@@ -19,7 +19,7 @@ function Hero() {
                     <h1 className="text-2xl font-bold text-gray-800">Claude Cancer AI</h1>
                 </div>
                 <div className="space-x-4">
-                    <Link
+                    {/*<Link
                         href="/chat"
                         className="text-blue-600 hover:text-blue-800 transition-colors"
                     >
@@ -30,7 +30,7 @@ function Hero() {
                         className="text-blue-600 hover:text-blue-800 transition-colors"
                     >
                         About
-                    </Link>
+                    </Link>*/}
                 </div>
             </nav>
 
@@ -59,18 +59,18 @@ function Hero() {
                     </div>
 
                     {/* CTA Buttons */}
-                    <div className="flex justify-center space-x-4">
+                    <div className="flex justify-center space-x-6 mb-8">
                         <Link
                             href="/chat"
-                            className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors flex items-center"
+                            className="bg-black text-white font-bold px-6 py-3 rounded-lg hover:bg-gray-800 transition-colors flex items-center justify-center"
                         >
-
+                            Chat
                         </Link>
                         <Link
                             href="/about"
-                            className="bg-gray-100 text-gray-800 px-6 py-3 rounded-lg hover:bg-gray-200 transition-colors flex items-center"
+                            className="bg-black text-white font-bold px-6 py-3 rounded-lg hover:bg-gray-800 transition-colors flex items-center justify-center"
                         >
-
+                            About
                         </Link>
                     </div>
                 </div>
