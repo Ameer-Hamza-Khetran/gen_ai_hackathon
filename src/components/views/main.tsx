@@ -16,7 +16,7 @@ function Hero() {
                         height={50}
                         className="rounded-full"
                     />
-                    <h1 className="text-2xl font-bold text-gray-800">Claude Cancer AI</h1>
+                    <h1 className="text-2xl font-bold text-gray-800">ClaudIA</h1>
                 </div>
                 <div className="space-x-4">
                     {/*<Link
@@ -41,7 +41,7 @@ function Hero() {
                         Your AI Assistant for Cancer Treatment
                     </h2>
                     <p className="text-xl text-gray-600 mb-8">
-                        ClaudeAI provides personalized, empathetic support for <span className="font-bold text-yellow-700">cancer patients</span>, helping you navigate treatment challenges, ask questions, and find resources tailored to your journey.
+                        ClaudIA provides personalized, empathetic support for <span className="font-bold text-yellow-700">cancer patients</span>, helping you navigate treatment challenges, ask questions, and find resources tailored to your journey.
                     </p>
 
                     {/* Feature Cards */}
@@ -79,7 +79,7 @@ function Hero() {
             {/* Footer */}
             <footer className="bg-gray-100 py-6">
                 <div className="container mx-auto px-4 text-center text-gray-600">
-                    © 2024 ClaudeAI. Empowering <span className="font-bold text-yellow-700">cancer care</span> through AI.
+                    © 2024 ClaudIA. Empowering <span className="font-bold text-yellow-700">cancer care</span> through AI.
                 </div>
             </footer>
         </main>
