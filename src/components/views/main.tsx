@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from 'next/link';
 
+
 function Hero() {
     return (
 
@@ -9,13 +10,13 @@ function Hero() {
             <nav className="container mx-auto px-4 py-6 flex justify-between items-center">
                 <div className="flex items-center space-x-3">
                     <Image
-                        src="/api/placeholder/50/50"
+                        src="/logo_1.png"
                         alt="Claude Logo"
                         width={50}
                         height={50}
                         className="rounded-full"
                     />
-                    <h1 className="text-2xl font-bold text-gray-800">Claude</h1>
+                    <h1 className="text-2xl font-bold text-gray-800">Claude Cancer AI</h1>
                 </div>
                 <div className="space-x-4">
                     <Link
